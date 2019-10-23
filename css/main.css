@@ -576,6 +576,7 @@ input[type="submit"]:hover {
     list-style-type: none;
     padding-left: 71px;
     margin-top: 30px;
+    border-radius: 5px;
 }
 
 .social-box li {
@@ -593,7 +594,6 @@ input[type="submit"]:hover {
     padding: 10px 17px;
     border: 1px solid #44619D;
     background-color: #44619D;
-    border-radius: 5px;
 }
 
 .facebook-icon:hover {
@@ -604,7 +604,6 @@ input[type="submit"]:hover {
 .twitter-icon {
 	padding: 10px 15px;
 	border: 1px solid #33CCFF;
-	border-radius: 5px;
 	background-color: #33CCFF;
 }
 
@@ -615,7 +614,6 @@ input[type="submit"]:hover {
 .instagram-icon {
     padding: 10px 17px;
     border: 1px solid #BE36A6;
-    border-radius: 5px;
     background-color: #BE36A6;
 }
 
@@ -626,7 +624,6 @@ input[type="submit"]:hover {
 .linkedin-icon {
     padding: 10px 17px;
     border: 1px solid #00B487;
-    border-radius: 5px;
     background-color: #00B487;
 }
 
@@ -637,7 +634,6 @@ input[type="submit"]:hover {
 .github-icon {
     padding: 10px 17px;
     border: 1px solid #252525;
-    border-radius: 5px;
     background-color: #252525;
 }
 
@@ -649,7 +645,6 @@ input[type="submit"]:hover {
 .stack-overflow-icon {
 	padding: 10px 15px;
 	border: 1px solid #F77715;
-	border-radius: 5px;
 	background-color: #F77715;
 }
 
