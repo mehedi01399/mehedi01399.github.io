@@ -1,3 +1,20 @@
+<?php
+	if(isset($_POST['submit'])){
+		$name=$_POST['name'];
+		$email=$_POST['email'];
+		$msg=$_POST['message'];
+		$to='soronmolla@gmail.com'; 
+		$subject='Form Submission';
+		$message="Name :".$name."\n"."Wrote the following :"."\n\n".$msg;
+		$headers="From: ".$email;
+		if(mail($to, $subject, $message, $headers)){
+			echo "<h1>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
+		}
+		else{
+			echo "Something went wrong!";
+		}
+	}
+?>
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
@@ -310,7 +327,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 wow animated fadeInLeft">
-                                <form class="contact-form" action="mail.php" method="post">
+                                <form class="contact-form" action="" method="post">
                                     <input type="text" name="name" placeholder="Name" required>
                                     <input type="email" name="email" placeholder="Email" required>
                                     <textarea rows="5" name="message" placeholder="Say Something..." required></textarea>
